@@ -6,6 +6,7 @@ setuptools.setup(
     version="1.4.0",
     packages=setuptools.find_packages(),
     install_requires=["six", "pytz"],
+    extras_require={"testing": []},
     include_package_data=True,
     namespace_packages=["paka"],
     zip_safe=False,
