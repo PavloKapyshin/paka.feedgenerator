@@ -3,7 +3,7 @@ import setuptools
 
 setuptools.setup(
     name="paka.feedgenerator",
-    version="1.4.1",
+    version="1.5.0",
     packages=setuptools.find_packages(),
     install_requires=["six", "pytz"],
     extras_require={"testing": []},
